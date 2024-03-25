@@ -1,0 +1,3 @@
+--SELECT title, length FROM film WHERE title LIKE '%n' ORDER BY length DESC LIMIT 5;
+--SELECT title, length FROM film WHERE title LIKE '%n' AND LENGTH(title) BETWEEN 6 AND 10 ORDER BY length OFFSET 1 LIMIT 5;
+--SELECT * FROM customer WHERE store_id = 1 ORDER BY last_name DESC LIMIT 4;
